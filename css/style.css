@@ -54,11 +54,15 @@ img {
   font-weight: 700;
   margin-left: auto;
 }
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
 .header-p {
   margin-bottom: 20px;
 }
 .header {
-  padding-bottom: 20px;
   border-bottom: 1px solid black;
 }
 .date-service {
@@ -99,7 +103,7 @@ img {
   border-bottom: 1px solid #000;
 }
 .service-wrap {
-  padding-top: 10px;
+  padding-top: 21.6px;
   padding-bottom: 40px;
   display: flex;
   justify-content: space-between;
@@ -177,7 +181,7 @@ img {
   font-size: 13px;
 }
 .footer_text:not(:last-child) {
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 }
 .footer_bold-text {
   font-size: 22px;
@@ -187,7 +191,7 @@ img {
   margin-bottom: 70px;
 }
 .footer_p {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .line {
@@ -205,10 +209,7 @@ img {
   justify-content: space-between;
 }
 .header_wrapper:not(:last-child) {
-  margin-bottom: 30px;
-}
-.footer {
-  padding-bottom: 50px;
+  margin-bottom: 10px;
 }
 .footer_items {
   display: flex;
@@ -224,13 +225,13 @@ img {
 .footer_contacts {
   display: flex;
   justify-content: space-between;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 7.5px;
+  padding-bottom: 7.5px;
 
   border-top: 1px solid black;
 }
 .footer_conect {
-  height: 190px;
+  height: 160px;
   padding-left: 10px;
   border-left: 1px solid black;
 }
@@ -247,6 +248,7 @@ img {
 }
 .md-network {
   padding-left: 20px;
+  margin-bottom: 7.2px;
   border-left: 5px solid rgb(36, 161, 210);
   border-radius: 0.5ch;
 }
